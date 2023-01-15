@@ -242,7 +242,6 @@ li a {
 
 .sponspors {
   text-align: center;
-  
 }
 .heading-text {
   font-size: 45px;
@@ -256,11 +255,24 @@ li a {
   color: #727272;
 }
 /* Multiple Logo Area  */
-.multiple-logo{
-    text-align: center;
-    background: #ffffff;   
+.multiple-logo {
+  text-align: center;
+  background: #ffffff;
 }
-.multiple-logo img{
-    padding: 50px;
-    mix-blend-mode: luminosity; 
+.multiple-logo img {
+  padding: 50px;
+  mix-blend-mode: luminosity;
+}
+/* footer area -styles */
+.footer {
+  background: #fff4e7;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  ;
+  margin-bottom: 100px;
 }
