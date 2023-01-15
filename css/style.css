@@ -1,0 +1,79 @@
+/* Google Fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans";
+}
+/* Header Section Area  */
+header {
+  background: rgba(255, 144, 14, 0.1);
+}
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: #3a3a3a;
+  margin-top: 40px;
+}
+.navbar {
+  margin-top: 40px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+li a {
+  text-decoration: none;
+  color: #424242;
+}
+.brands {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+}
+.text-side{
+    text-align: center;
+}
+.text-heading {
+  font-size: 64px;
+  line-height: 75px;
+  color: #131313;
+}
+.text-sub-heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  text-align: center;
+ margin-top: 20px;
+}
+.btn-primary{
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    align-items: center;
+    margin: 30px 0px;
+}
+.img-section img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
