@@ -273,6 +273,76 @@ li a {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  ;
   margin-bottom: 100px;
+}
+/* CSS Media Queries */
+/* mobile screen  */
+
+@media only screen and (max-width: 576px) {
+  /*Header-section*/
+  .container {
+    width: 100%;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .teamPhoto-features {
+    display: flex;
+    flex-direction: column;
+  }
+  .team-image {
+    display: flex;
+    flex-direction: column;
+  }
+  .feature-text {
+    margin-left: 0px;
+  }
+  .feature-text {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .btn-primary {
+    width: 140px;
+    height: 54px;
+    font-size: 15px;
+  }
+  .text-heading{
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .text-sub-heading{
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .women-architect-imgage img{
+    width: 80%;
+    margin-left: 30px;
+  }
+  .experience-features-section{
+    
+    display: flex;
+    flex-direction: column-reverse
+  }
+  .experience-features-blogs-heading{
+    margin-top: 20px;
+  }
+  .experience-textbox{
+    width: 100%;
+  }
+  .factbox{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading-text{
+    font-size: 30px;
+    line-height: 20px;
+  }
+  p{
+    font-size: 15px;
+   
+  }
 }
