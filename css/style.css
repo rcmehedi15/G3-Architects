@@ -113,3 +113,77 @@ li a {
   color: #727272;
   margin-top: 10px;
 }
+/* Features 2nd enjoy-section */
+.experience-features-section {
+  display: flex;
+
+  margin-top: 130px;
+}
+.experience-features-blogs-heading {
+  flex-direction: column;
+}
+.tall-line-border {
+  border-left: 5px solid #ff900e;
+  padding: 0.01em 20px;
+  color: #131313;
+}
+.second-feature-subtext {
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+.experience-features-blogs-headingt h1 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.experience-textbox {
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  width: 586px;
+  margin-top: 20px;
+}
+.experience-textbox h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+}
+.experience-textbox p {
+  margin-top: 15px;
+  font-weight: normal;
+  font-size: 16px;
+  color: #727272;
+}
+
+.women-architect-imgag {
+  margin-right: 240px;
+  margin-top: 130px;
+  margin-left: 146px;
+}
+.women-architect-imgage {
+  position: relative;
+}
+/* button-style */
+.btn-experience-section {
+  width: 342px;
+  height: 150px;
+  margin-top: -640px;
+  color: #ffffff;
+  background: #ff900e;
+  border-radius: 8px;
+  border: 0;
+  margin-left: -85px;
+}
+
+.btn-experience-section h1 {
+  font-weight: 700;
+  font-size: 45px;
+}
+.btn {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 25px;
+}
