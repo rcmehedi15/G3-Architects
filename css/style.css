@@ -188,29 +188,29 @@ li a {
   font-size: 25px;
 }
 /* Some Facts ection styles */
-.some-fact-section{
+.some-fact-section {
   margin-top: 100px;
 }
-.some-fact-section h1{
+.some-fact-section h1 {
   font-weight: 700;
-  font-size: 45px; 
-  color: #131313;  
+  font-size: 45px;
+  color: #131313;
 }
-.some-fact-section p{
+.some-fact-section p {
   font-weight: 400;
   font-size: 16px;
   color: #727272;
 }
-.factbox{
+.factbox {
   display: flex;
   justify-content: center;
   gap: 124px;
-  margin-top: 100px
+  margin-top: 100px;
 }
-.SomeFactBox{
+.SomeFactBox {
   width: 241px;
   height: 241px;
-  border: 1px solid #FF900E;
+  border: 1px solid #ff900e;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -218,23 +218,49 @@ li a {
   justify-content: center;
   margin-bottom: 50px;
 }
-/* Some Facts text styles */ 
-.SomeFactBox img{
+/* Some Facts text styles */
+.SomeFactBox img {
   margin-top: 45px;
 }
-.SomeFactBox:hover{
+.SomeFactBox:hover {
   background-color: rgba(255, 144, 14, 0.1);
   color: #000000;
 }
-.SomeFactBox h1{
+.SomeFactBox h1 {
   font-weight: 600;
   font-size: 45px;
   color: #424242;
   margin-top: 8px;
 }
-.SomeFactBox p{
+.SomeFactBox p {
   font-weight: 600;
   font-size: 20px;
   color: #727272;
   margin-top: 20px;
+}
+/* Our Sponspors Area  */
+
+.sponspors {
+  text-align: center;
+  
+}
+.heading-text {
+  font-size: 45px;
+  color: #131313;
+  margin: 40px 0px;
+}
+.sponspors-heading p {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+/* Multiple Logo Area  */
+.multiple-logo{
+    text-align: center;
+    background: #ffffff;   
+}
+.multiple-logo img{
+    padding: 50px;
+    mix-blend-mode: luminosity; 
 }
